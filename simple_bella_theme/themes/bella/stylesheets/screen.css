@@ -125,7 +125,7 @@ section#content {
 
 /* line 98, ../sass/screen.scss */
 section#content a {
-  color: #E55A54;
+  color: #297be2;
 }
 
 /* line 103, ../sass/screen.scss */
@@ -185,7 +185,7 @@ nav.navmain ul a:hover {
   -moz-transition: background-color 1s ease-out;
   -webkit-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
-  background-color: #E55A54;
+  background-color: #3cb200;
 }
 
 /* line 164, ../sass/screen.scss */
@@ -274,6 +274,7 @@ nav .mobilelogo img {
 footer {
   background-color: #232323;
   /*For Sticky Footer*/
+  color: #EFEFEF;
   position: absolute;
   left: 0px;
   bottom: -100px;
@@ -283,8 +284,13 @@ footer {
   /*For Sticky Footer*/
 }
 
+/* line 248, ../sass/screen.scss */
+footer a {
+  color: #297be2;
+}
+
 /*All for Dawnmenu Btmenu Mobile Menu*/
-/* line 260, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .bt-menu {
   position: fixed;
   top: 0;
@@ -300,13 +306,13 @@ footer {
   transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .bt-menu a {
   text-decoration: none;
   font-size: 1em;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .bt-menu.bt-menu-open {
   height: 100%;
   border-width: 0px 0px 50px 150px;
@@ -315,18 +321,18 @@ footer {
   transition: border-width 0.3s, background-color 0.3s;
 }
 
-/* line 290, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .bt-overlay {
   position: absolute;
   width: 100%;
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .bt-menu-open .bt-overlay {
   height: 100%;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .bt-menu-trigger {
   position: fixed;
   top: 0px;
@@ -338,7 +344,7 @@ footer {
   cursor: pointer;
 }
 
-/* line 310, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .bt-menu-trigger span {
   position: absolute;
   top: 50%;
@@ -358,7 +364,7 @@ footer {
   transition: background-color 0.3s;
 }
 
-/* line 327, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .bt-menu-trigger span:before,
 .bt-menu-trigger span:after {
   position: absolute;
@@ -371,31 +377,31 @@ footer {
   transition: transform 0.3s;
 }
 
-/* line 341, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .bt-menu-trigger span:before {
   -webkit-transform: translateY(-250%);
   transform: translateY(-250%);
 }
 
-/* line 346, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .bt-menu-trigger span:after {
   -webkit-transform: translateY(250%);
   transform: translateY(250%);
 }
 
-/* line 351, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .bt-menu-open .bt-menu-trigger span:before {
   -webkit-transform: translateY(-300%);
   transform: translateY(-300%);
 }
 
-/* line 356, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 .bt-menu-open .bt-menu-trigger span:after {
   -webkit-transform: translateY(300%);
   transform: translateY(300%);
 }
 
-/* line 361, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .bt-menu ul {
   position: fixed;
   margin: 0;
@@ -411,19 +417,19 @@ footer {
   text-decoration: none;
 }
 
-/* line 376, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 .bt-menu ul:first-of-type {
   top: 75px;
   left: 0;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .bt-menu ul:nth-of-type(2) {
   right: 0;
   bottom: 0;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .bt-menu ul li {
   display: block;
   outline: none;
@@ -437,20 +443,20 @@ footer {
   color: #EFEFEF;
 }
 
-/* line 399, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 .bt-menu ul:nth-of-type(2) li {
   float: left;
   font-size: 0px;
 }
 
-/* line 404, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 .bt-menu ul li {
   visibility: hidden;
   opacity: 0;
   /*This controls the scaling animations*/
 }
 
-/* line 412, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 .bt-menu ul li a {
   color: #EFEFEF;
   display: block;
@@ -464,13 +470,13 @@ footer {
   text-decoration: none;
 }
 
-/* line 424, ../sass/screen.scss */
+/* line 429, ../sass/screen.scss */
 .bt-menu ul li a:hover {
-  color: #E55A54;
+  color: #3cb200;
   font-size: 1.2em;
 }
 
-/* line 431, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
 .bt-menu.bt-menu-open ul:first-of-type li,
 .bt-menu.bt-menu-open ul:nth-of-type(2) li {
   visibility: visible;
@@ -482,7 +488,7 @@ footer {
 }
 
 /* First menu */
-/* line 443, ../sass/screen.scss */
+/* line 448, ../sass/screen.scss */
 .bt-menu ul li:hover {
   transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
@@ -491,7 +497,7 @@ footer {
   background-color: #222;
 }
 
-/* line 455, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 .bt-menu ul:first-of-type li {
   width: 150px;
   height: 50px;
@@ -502,7 +508,7 @@ footer {
 */
 }
 
-/* line 467, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 .bt-menu.bt-menu-open ul:first-of-type li {
   /*
 	-webkit-transform: translate3d(0,0,0);
@@ -511,7 +517,7 @@ footer {
 }
 
 /* Second menu */
-/* line 475, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 .bt-menu ul:nth-of-type(2) li {
   width: 60px;
   height: 50px;
@@ -543,12 +549,12 @@ footer {
 	transition-delay: 0.4s;
 }
 */
-/* line 510, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .bt-menu ul:first-of-type li a {
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 524, ../sass/screen.scss */
+/* line 529, ../sass/screen.scss */
 #camera_wrap .caption {
   position: absolute;
   background-color: #222;
@@ -559,25 +565,25 @@ footer {
 
 /*Fix this later to display none*/
 @media (min-width: 1200px) {
-  /* line 543, ../sass/screen.scss */
+  /* line 548, ../sass/screen.scss */
   section#content {
     position: relative;
     left: 10%;
   }
 
-  /* line 549, ../sass/screen.scss */
+  /* line 554, ../sass/screen.scss */
   nav.bt-menu, nav.bt-menu li.link {
     display: none;
   }
 }
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 558, ../sass/screen.scss */
+  /* line 563, ../sass/screen.scss */
   nav.bt-menu, nav.bt-menu li.link {
     visibility: visibile;
   }
 
-  /* line 562, ../sass/screen.scss */
+  /* line 567, ../sass/screen.scss */
   section#content {
     position: relative;
     z-index: 400;
@@ -585,58 +591,58 @@ footer {
     left: 17%;
   }
 
-  /* line 569, ../sass/screen.scss */
+  /* line 574, ../sass/screen.scss */
   nav.navmain {
     visibility: hidden;
   }
 }
 @media (max-width: 992px) {
-  /* line 578, ../sass/screen.scss */
+  /* line 583, ../sass/screen.scss */
   nav.bt-menu, nav.bt-menu li.link {
     visibility: visible;
   }
 
-  /* line 582, ../sass/screen.scss */
+  /* line 587, ../sass/screen.scss */
   section#content {
     position: relative;
     left: 15%;
   }
 
-  /* line 590, ../sass/screen.scss */
+  /* line 595, ../sass/screen.scss */
   nav.navmain {
     visibility: hidden;
   }
 
-  /* line 596, ../sass/screen.scss */
+  /* line 601, ../sass/screen.scss */
   nav.logo a {
     visibility: visible;
   }
 }
 @media (max-width: 500px) {
-  /* line 603, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   nav.bt-menu, nav.bt-menu li.link {
     visibility: visible;
   }
 
-  /* line 607, ../sass/screen.scss */
+  /* line 612, ../sass/screen.scss */
   section#content {
     left: 5%;
     width: 85%;
     margin-top: 1%;
   }
 
-  /* line 615, ../sass/screen.scss */
+  /* line 620, ../sass/screen.scss */
   nav.navmain {
     left: 30%;
     visibility: hidden;
   }
 
-  /* line 622, ../sass/screen.scss */
+  /* line 627, ../sass/screen.scss */
   nav.logo a {
     visibility: visible;
   }
 
-  /* line 627, ../sass/screen.scss */
+  /* line 632, ../sass/screen.scss */
   #Form_Form {
     position: relative;
     width: 100%;
