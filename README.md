@@ -2,6 +2,11 @@
 
 This is A Repo of Andrei Nicolas
 
+Composer/ www.Packagist.org
+
+#use in terminal
+#composer require rebornweb/silverstripe-themes
+
 Who Manages
 http://Rebornweb.co.nz "Swiftly Building Websites"
 
